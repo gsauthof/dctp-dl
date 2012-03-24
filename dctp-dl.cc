@@ -1,5 +1,8 @@
+// Download client for HTTP Live Streaming content from dctp
+//
+// by Georg Sauthoff <mail@georg.so>, 2012, GPLv3+
 
-#include "curl.hh"
+#include "ccurl/curl.hh"
 
 #include <fstream>
 #include <stdexcept>
