@@ -1,0 +1,3 @@
+[submodule "ccurl"]
+	path = ccurl
+	url = git@github.com:gsauthof/ccurl.git
