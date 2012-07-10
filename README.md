@@ -26,7 +26,7 @@ Georg Sauthoff <mail@georg.so>
 
 ## License ##
 
-GPVv3+
+GPLv3+
 
 
 [1]: http://www.dctp.tv
