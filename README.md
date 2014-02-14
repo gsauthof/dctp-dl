@@ -12,13 +12,13 @@ television network.
 ## How does it work? ##
 
 It just fetches the [HTTP Live Streaming][2] content from a page and the
-retrieved stream parts are just concatenated. If you are interested how the
+retrieved stream parts are concatenated. If you are interested how the
 splitting with HTTP Live Streaming works you can look e.g. at [this
 segmenter][3].
 
-Since the stream parts are just concatenated, the remaining time display does
-not work in mplayer. Transforming the stream file a little bit should not be
-that complicated, though.
+Since the stream parts are concatenated as-is, the remaining time display does
+not work in video players like mplayer. Transforming the stream file a little
+bit should not be that complicated, though.
 
 ## Contact ##
 

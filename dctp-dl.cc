@@ -41,6 +41,7 @@ class dctp {
       cb.clear();
       cerr << "Fetching: " << url << '\n';
       h.get(url);
+      cerr << "Matching: |" << expr << "|\n";
       regex re(expr, regex::extended);
       vmatch results;
       vector<char>::const_iterator b = v.begin(), e = v.end();
@@ -116,7 +117,7 @@ class dctp {
 
 };
 
-char const dctp::agent[] = "Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8L1 Safari/6533.18.5";
+char const dctp::agent[] = "Firefox 24/Linux: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Firefox/24.0";
 
 
 int main(int argc, char **argv)
