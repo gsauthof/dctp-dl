@@ -3,6 +3,8 @@ television network.
 
 ## Example ##
 
+    $ git clone 'https://github.com/gsauthof/dctp-dl.git'
+    $ cd dctp-dl
     $ make update
     $ make
     $ ./dctp-dl http://www.dctp.tv/filme/abhoeren-fuer-alle_harald-welte/ harald.m4v
@@ -28,6 +30,17 @@ Georg Sauthoff <mail@georg.so>
 
 GPLv3+
 
+## Build Dependencies
+
+On Fedora/RHEL:
+
+    libcurl-devel
+    boost-regex
+    boost-devel
+    make
+    gcc-c++ # or any other ISO C++ compiler
+
+On Debian the packages should be named quite similiar (e.g. libcurl-dev instead of libcurl-devel).
 
 [1]: http://www.dctp.tv
 [2]: http://en.wikipedia.org/wiki/HTTP_Live_Streaming
