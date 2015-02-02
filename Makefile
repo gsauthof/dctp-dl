@@ -24,7 +24,11 @@ clean:
 
 .PHONY: update
 
-update:
+update: .git
 	git submodule init
 	git submodule update
 
+
+.git:
+	@echo '`make update` only works on a cloned git repository - cf. README.md'
+	@false
