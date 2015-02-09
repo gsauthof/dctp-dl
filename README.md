@@ -40,7 +40,16 @@ On Fedora/RHEL:
     make
     gcc-c++ # or any other ISO C++ compiler
 
-On Debian the packages should be named quite similiar (e.g. libcurl-dev instead of libcurl-devel).
+The packages should be named quite similiar on other distributions (e.g.
+libcurl-dev instead of libcurl-devel).
+
+For example, on Debian wheezy:
+
+    libcurl4-gnutls-dev
+    libboost-regex1.49.0
+    libboost1.49-dev
+    make
+    g++
 
 [1]: http://www.dctp.tv
 [2]: http://en.wikipedia.org/wiki/HTTP_Live_Streaming
