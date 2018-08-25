@@ -1,3 +1,13 @@
+**Warning:** As of 2018-08-25 I highly recommend
+[youtube-dl][youtubedl] for all your DCTP downloading needs. In
+2012, youtube-dl didn't support DCTP and thus I created dctp-dl.
+Nowadays, youtube-dl is also able to download videos from the
+DCTP site. Also, the DCTP page has changed enough such that the
+old dctp-dl implementation doesn't work anymore. Thus, the code
+in this repository is only of historic interest.
+
+## Old Introduction
+
 dctp-dl is a small tool to download episodes from the german [DCTP][1]
 television network.
 
@@ -54,3 +64,4 @@ For example, on Debian wheezy:
 [1]: http://www.dctp.tv
 [2]: http://en.wikipedia.org/wiki/HTTP_Live_Streaming
 [3]: https://github.com/carsonmcdonald/HTTP-Live-Video-Stream-Segmenter-and-Distributor/blob/master/live_segmenter.c
+[youtubedl]: https://github.com/rg3/youtube-dl
